@@ -1,61 +1,61 @@
+--root{
+
+}
 
 .about-contact,
 .skills,
 .themed-grid-col {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .about-contact,
 .skills,
-.work{
+.work {
   margin: 50px;
 }
 
-#myProfile{
-border-radius: 10px;
-margin-top: 10px;
-width: 250px;
-max-width: 30%;
+#myProfile {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 250px;
+  max-width: 50%;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.02);
 }
 .nav-link:hover,
 #about-contact img:hover,
-.skills img:hover{
+.skills img:hover {
   transform: scale(1.19);
   -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
   filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
 }
 
-.nav-link:hover{
+.nav-link:hover {
   border-bottom: 1px solid white;
 }
 
-#about-contact img{
+#about-contact img {
   width: 1cm;
   cursor: pointer;
 }
-.img-size{
-  height:50%;
+.img-size {
+  height: 50%;
 }
 
 .hero,
-nav{
+nav {
   background-color: rgb(240, 180, 140);
 }
 
-nav{
+nav {
   -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
 }
 
-footer p {
-  color: white;
-}
-footer{
+footer {
   background-color: rgb(240, 180, 140);
 }
 
@@ -63,25 +63,42 @@ h1,
 h2,
 h3,
 h4,
-h5
-{
-  font-family:Optima, sans-serif;
+h5 {
+  font-family: Optima, sans-serif;
   -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
 }
 
-.project1{
-background: rgb(146, 182, 143);
+.project1 {
+  background: rgb(146, 182, 143);
 }
-.project2{
+.project2 {
   background: rgb(136, 184, 195);
 }
-.project3{
+.project3 {
   background: rgb(160, 149, 234);
 }
-.project4{
+.project4 {
   background: rgb(235, 177, 228);
 }
-.project5{
+.project5 {
   background: rgb(242, 197, 199);
+}
+
+.btn:hover{
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
+  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+}
+
+.bottom-btn {
+float: right;
+margin-right: 25px;
+width: 40px;
+height: 40px;
+}
+
+.bottom-btn:hover{
+  transform: scale(1.19);
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
+  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
 }
