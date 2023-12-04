@@ -52,7 +52,7 @@ Navigation and Features:
 If you're also on the journey of learning web development and wish to contribute or offer feedback, don't hesitate to fork the repository and submit a pull request. Contributions and suggestions are highly valued!
 
 ## Credits
-- Online CSS and HTML tutorials:
+- Online Boostrap tutorials: [Bootstrap CSS Framework - Full Course for Beginners](https://www.youtube.com/watch?v=-qfEOE4vtxE)
 - Guidance from Bootcamp instructors
 - Any additional resources or sources of inspiration
 - Students from the Bootcamp sharing their knoledge
