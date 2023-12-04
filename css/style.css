@@ -1,74 +1,55 @@
---root{
-
+/* Root variables */
+:root {
+  --oran-main: rgb(240, 180, 140);
+  --shadow-style: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
+  --filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
 }
 
-.about-contact,
-.skills,
-.themed-grid-col {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+/* Navigation styles */
+.nav-link:hover,
+#about-contact img:hover,
+.skills img:hover {
+  transform: scale(1.19);
+  filter: var(--filter);
+ -webkit-filter:var(--shadow-style);
+}
+.nav-link:hover {
+  border-bottom: 1px solid white;
 }
 
-.about-contact,
-.skills,
-.work {
-  margin: 50px;
+/* My profile section */
+.hero {
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
+  background-color: var(--oran-main);
 }
-
+.hero,
+nav {
+  background-color: var(--oran-main);
+}
 #myProfile {
   border-radius: 10px;
   margin-top: 10px;
   width: 250px;
   max-width: 50%;
 }
-
-.card:hover {
-  transform: scale(1.02);
+.about-contact,
+.skills,
+.themed-grid-col {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
-.nav-link:hover,
-#about-contact img:hover,
-.skills img:hover {
-  transform: scale(1.19);
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+.about-contact,
+.skills,
+.work {
+  margin: 50px;
 }
-
-.nav-link:hover {
-  border-bottom: 1px solid white;
-}
-
 #about-contact img {
   width: 1cm;
   cursor: pointer;
 }
-.img-size {
-  height: 50%;
-}
 
-.hero,
-nav {
-  background-color: rgb(240, 180, 140);
-}
-
-nav {
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
-}
-
-footer {
-  background-color: rgb(240, 180, 140);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: Optima, sans-serif;
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
-}
-
+/* Projects style */
 .project1 {
   background: rgb(146, 182, 143);
 }
@@ -84,21 +65,46 @@ h5 {
 .project5 {
   background: rgb(242, 197, 199);
 }
-
-.btn:hover{
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+.img-size {
+  height: 50%;
 }
-
-.bottom-btn {
-float: right;
-margin-right: 25px;
-width: 40px;
-height: 40px;
+.card:hover {
+  transform: scale(1.02);
 }
-
-.bottom-btn:hover{
+.btn:hover {
   transform: scale(1.19);
-  -webkit-filter: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
-  filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
+}
+
+/* Footer style */
+.bottom-btn {
+  float: right;
+  margin-right: 25px;
+  width: 40px;
+  height: 40px;
+}
+footer i:hover,
+.bottom-btn:hover {
+  transform: scale(1.19);
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
+}
+footer {
+  background-color: var(--oran-main);
+}
+footer a{
+ border-bottom: none;
+ text-decoration: none;
+}
+
+/* Typografy styles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Optima, sans-serif;
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
 }
