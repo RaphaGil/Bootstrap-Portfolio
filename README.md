@@ -23,11 +23,14 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-!
+![Raphaela Portfolio](https://github.com/RaphaGil/raphaela_gil_portfolio/assets/128820385/35cdec42-d72e-4416-a4a1-f05e8ba531c4)
 *Caption: Overview of the project's main dashboard displaying real-time data.*
 ### Menu nav bar
-![Nav]
+![Nav](https://github.com/RaphaGil/bootstrap-portfolio/assets/128820385/fb31ec06-b81f-4548-bc66-63c48d5f9df9)
 *Caption: Detailed view of a navbar, showcasing links options.*
+### Footer links
+![Footer](https://github.com/RaphaGil/bootstrap-portfolio/assets/128820385/0f7623c6-fc1c-4541-b9a9-c7bd1554e450)
+*Caption: Detailed view of a footer, showcasing links icons options plus go to top bottom.*
 
 ## Usage
 Navigation and Features:
@@ -57,8 +60,6 @@ If you're also on the journey of learning web development and wish to contribute
 ## License
 This project is licensed under the MIT License. The MIT License is an open-source license widely used for software projects. It is known for its permissive nature, allowing users to freely use, modify, distribute, and sublicense the software without significant legal restrictions.
 
-Add webpagelink
-[Deployed Site]()
-Raphaela Gil - 
+[Portfolio - Boostrap Framework](https://raphagil.github.io/bootstrap-portfolio/) - Raphaela Gil 
 ## Contact Information
 If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [RaphaGil](https://github.com/RaphaGil).
