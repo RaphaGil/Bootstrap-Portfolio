@@ -23,13 +23,13 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-![Raphaela Portfolio](https://github.com/RaphaGil/raphaela_gil_portfolio/assets/128820385/35cdec42-d72e-4416-a4a1-f05e8ba531c4)
+![Raphaela Portfolio](https://github.com/RaphaGil/raphaela_gil_portfolio/assets/128820385/28164af8-6c24-4dff-839e-5db37c784830)
 *Caption: Overview of the project's main dashboard displaying real-time data.*
 ### Menu nav bar
-![Nav](https://github.com/RaphaGil/bootstrap-portfolio/assets/128820385/fb31ec06-b81f-4548-bc66-63c48d5f9df9)
+![Nav](https://github.com/RaphaGil/raphaela_gil_portfolio/assets/128820385/56665ba6-401f-42a1-add4-94cf15267fa0)
 *Caption: Detailed view of a navbar, showcasing links options.*
 ### Footer links
-![Footer](https://github.com/RaphaGil/bootstrap-portfolio/assets/128820385/0f7623c6-fc1c-4541-b9a9-c7bd1554e450)
+![Footer](https://github.com/RaphaGil/raphaela_gil_portfolio/assets/128820385/93a12935-0cd3-4c5f-9de5-e42c4574c37f)
 *Caption: Detailed view of a footer, showcasing links icons options plus go to top bottom.*
 
 ## Usage
