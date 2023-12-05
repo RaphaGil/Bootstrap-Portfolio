@@ -18,7 +18,7 @@
 }
 
 /* My profile section */
-.jumbotron {
+.jumbotron-hero {
   -webkit-filter:var(--shadow-style);
   filter: var(--filter);
   background-color: var(--oran-main);
